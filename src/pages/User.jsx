@@ -118,10 +118,10 @@ function User() {
           </div>
         </div>
 
-        <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full p-5 mb-6 rounded-xl shadow-md bg-base-100 border border-gray-700 xl:divide-x divide-gray-700">
           <div className="stat">
             <div className="stat-figure text-secondary">
-              <FaUsers className="text-3xl md:text-4xl xl:text-5xl" />
+              <FaUsers className="text-4xl md:text-5xl" />
             </div>
             <div className="stat-title pr-5">Followers</div>
             <div className="stat-value pr-5 text-3xl md:text-4xl">
@@ -131,7 +131,7 @@ function User() {
 
           <div className="stat">
             <div className="stat-figure text-secondary">
-              <FaUserFriends className="text-3xl md:text-4xl xl:text-5xl" />
+              <FaUserFriends className="text-4xl md:text-5xl" />
             </div>
             <div className="stat-title pr-5">Following</div>
             <div className="stat-value pr-5 text-3xl md:text-4xl">
@@ -141,7 +141,7 @@ function User() {
 
           <div className="stat">
             <div className="stat-figure text-secondary">
-              <FaCodepen className="text-3xl md:text-4xl xl:text-5xl" />
+              <FaCodepen className="text-4xl md:text-5xl" />
             </div>
             <div className="stat-title pr-5">Public Repos</div>
             <div className="stat-value pr-5 text-3xl md:text-4xl">
@@ -151,7 +151,7 @@ function User() {
 
           <div className="stat">
             <div className="stat-figure text-secondary">
-              <FaStore className="text-3xl md:text-4xl xl:text-5xl" />
+              <FaStore className="text-4xl md:text-5xl" />
             </div>
             <div className="stat-title pr-5">Public Gists</div>
             <div className="stat-value pr-5 text-3xl md:text-4xl">
